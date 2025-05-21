@@ -19,6 +19,6 @@ textbox=c.CTkTextbox(
         activate_scrollbars=True # or False
 )
 textbox.pack(padx=10,pady=10)
-textbox.insert('0.0','Agora tem como ver\n\n' +'como é criar uma caixa de texto com textost aleatórios.\n\n'*30)
+textbox.insert('0.0','Agora tem como ver\n\n' +'como é criar uma caixa de texto com textos aleatórios.\n\n'*30)
 
 janela.mainloop()
