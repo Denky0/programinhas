@@ -42,16 +42,27 @@ def abrir_cadastro():
     )
     entr_idade.pack(pady=5)
 
-    entr_curso=h.CTkEntry(
+    cursos=[
+        'Direito',
+        'Medicina',
+        'ADS',
+        'Ciência da Computação',
+        'Design',
+        'T.I',
+        'marketing',
+        'Arquitetura',
+        ]
+    entr_curso=h.CTkOptionMenu(
         frame,
-        placeholder_text='Curso'
-    )
+        values=cursos
+        )
     entr_curso.pack(pady=5)
+    entr_curso.set('Selecione um Curso')
 
     def limpar():
         entr_nome.delete(0,'end')
         entr_idade.delete(0,'end')
-        entr_curso.delete(0,'end')
+        entr_curso.set('Selecione um Curso')
 
     def enviar():
         nome=entr_nome.get()
@@ -79,7 +90,7 @@ def abrir_cadastro():
     h.CTkButton(
         frame,
         text='Fechar',
-        command=jan.destroy
+        command=cadastr.destroy
     ).pack(pady=5)
     
 h.CTkButton(
