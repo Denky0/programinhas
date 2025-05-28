@@ -20,11 +20,12 @@ def abrir_cadastro():
     cadastr.geometry('400x350')
     cadastr.title('Cadastro')
     cadastr.configure(fg_color='lightgreen')
+    cadastr.resizable(False,False)
 
     frame=h.CTkFrame(cadastr)
     frame.pack(
-        pady=20,
-        padx=20,
+        pady=5,
+        padx=5,
         fill='both',
         expand=True
     )
@@ -41,25 +42,25 @@ def abrir_cadastro():
     )
     entr_idade.pack(pady=5)
 
-    entr_email=h.CTkEntry(
+    entr_curso=h.CTkEntry(
         frame,
-        placeholder_text='E-mail'
+        placeholder_text='Curso'
     )
-    entr_email.pack(pady=5)
+    entr_curso.pack(pady=5)
 
     def limpar():
         entr_nome.delete(0,'end')
         entr_idade.delete(0,'end')
-        entr_email.delete(0,'end')
+        entr_curso.delete(0,'end')
 
     def enviar():
         nome=entr_nome.get()
         idade=entr_idade.get()
-        email=entr_email.get()
+        curso=entr_curso.get()
 
-        if nome and idade and email:
-            messagebox.showinfo('Cadastro Realizado', f'Nome:{nome}\nIdade:{idade}\nE-mail:{email}')
-            print(f'Nome:{nome}, Idade:{idade}, E-mail:{email}')
+        if nome and idade and curso:
+            messagebox.showinfo('Cadastro Realizado', f'Nome: {nome}\nIdade: {idade}\nE-mail: {curso}')
+            print(f'Nome: {nome}, Idade: {idade}, E-mail: {curso}')
         else:
             messagebox.showwarning('Campos Incompletos', 'Por gentileza, preencha todos os campos.')
 
@@ -89,7 +90,7 @@ h.CTkButton(
 
 h.CTkButton(
     jan,
-    text='Abrir Cadastro',
+    text='Criar Cadastro',
     command=abrir_cadastro
 ).pack(pady=10)
 
