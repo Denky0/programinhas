@@ -4,5 +4,9 @@
     "security.workspace.trust.untrustedFiles": "open",
     "redhat.telemetry.enabled": true,
     "jdk.jdkhome": "c:\\Users\\Antonio\\Downloads\\OpenJDK-24",
-    "workbench.iconTheme": "vscode-icons"
+    "workbench.iconTheme": "vscode-icons",
+    "java.project.sourcePaths": ["ITA"],
+    "editor.fontSize": 16,
+    "editor.tabSize": 4,
+    "window.zoomLevel":0.5
 }
