@@ -1,0 +1,8 @@
+{
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "redhat.telemetry.enabled": true,
+    "jdk.jdkhome": "c:\\Users\\Antonio\\Downloads\\OpenJDK-24",
+    "workbench.iconTheme": "vscode-icons"
+}
