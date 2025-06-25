@@ -1,4 +1,4 @@
-public class Paciente {
+public class IMC {
 
     private double peso;
     private double altura;
