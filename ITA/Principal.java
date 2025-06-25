@@ -1,15 +1,12 @@
 public class Principal {
     public static void main(String[] args) {
-        Carro c1 = new Carro();
-        c1.potencia = 10;
-        c1.nome = "Porsche";
-        c1.velocidade = 0;
+        Paciente paciente1 = new Paciente(50, 1.60);
+        Paciente paciente2 = new Paciente (80, 1.75);
+        Paciente paciente3 = new Paciente (110, 1.70);
 
-        c1.acelerar();
-        c1.acelerar();
-        c1.acelerar();
-        c1.frear();
 
-        c1.imprimir();
+        System.out.println("Paciente 1: IMC = " + paciente1.calcularIMC()+ " -> " + paciente1.diagnostico());
+        System.out.println("Paciente 2: IMC = " + paciente2.calcularIMC()+ " -> " + paciente2.diagnostico());
+        System.out.println("Paciente 3: IMC = " + paciente3.calcularIMC()+ " -> " + paciente3.diagnostico());
     }
 }
