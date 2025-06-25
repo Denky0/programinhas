@@ -8,5 +8,5 @@
     "java.project.sourcePaths": ["ITA"],
     "editor.fontSize": 16,
     "editor.tabSize": 4,
-    "window.zoomLevel":0.3
+    "window.zoomLevel":0
 }
