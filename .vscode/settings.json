@@ -3,7 +3,7 @@
     "explorer.confirmDelete": false,
     "security.workspace.trust.untrustedFiles": "open",
     "redhat.telemetry.enabled": true,
-    "jdk.jdkhome": "c:\\Users\\Antonio\\Downloads\\OpenJDK-24",
+    "jdk.jdkhome": "C:\\Program Files\\Java\\jdk-24",
     "workbench.iconTheme": "vscode-icons",
     "java.project.sourcePaths": ["ITA"],
     "editor.fontSize": 16,
