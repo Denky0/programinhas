@@ -5,7 +5,7 @@
     "redhat.telemetry.enabled": true,
     "jdk.jdkhome": "C:\\Program Files\\Java\\jdk-24",
     "workbench.iconTheme": "vscode-icons",
-    "java.project.sourcePaths": ["programas"],
+    "java.project.sourcePaths": [""],
     "editor.fontSize": 16,
     "editor.tabSize": 4,
     "window.zoomLevel": 0,
