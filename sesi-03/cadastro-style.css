@@ -48,6 +48,7 @@ body{
 .form-content label{
     display: flex;
     margin-bottom: 6px;
+    font-size: 17px;
 }
 
 .form-content input{
