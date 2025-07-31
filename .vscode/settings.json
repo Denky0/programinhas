@@ -9,6 +9,8 @@
     "editor.fontSize": 16,
     "editor.tabSize": 4,
     "window.zoomLevel": 0,
-    "java.debug.settings.onBuildFailureProceed": true
+    "java.debug.settings.onBuildFailureProceed": true,
+    "workbench.tree.indent": 12,
+    "recommendations": ["tonybaloney.vscode-pets"]
 }
 
