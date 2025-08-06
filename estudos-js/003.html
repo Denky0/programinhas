@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Qual sua Nacionalidade?</h1>
+    De onde você é? <input type="text" name="naci" id="naci"> <km>
+    <h><input type="button" value="verificar" onclick="verificar()"></h>
+    <div id="res">
+
+    </div>
+    <script>
+        function verificar() {
+            var txtv = document.getElementById('naci')
+            var res = document.getElementById('res')
+            var pso = 'Brasil'
+            var pais = String(txtv.value)
+            res.innerHTML = `<p> Seu país de origem é <strong>${pais}</strong></p>`
+            if (pais != pso) {
+                res.innerHTML += `<p>Você é um <strong>Estrangeiro</strong></p>`
+            } else {
+                res.innerHTML += `<p>Tenha um bom dia</p>`
+            }
+        }
+    </script>
+</body>
+</html>
