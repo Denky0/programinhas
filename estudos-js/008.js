@@ -12,6 +12,7 @@ for (var pos in valores) {
     console.log(`Posição ${pos} | Valor ${valores[pos]}`)
 }
 
+// Utilizando Métodos If | Else
 var numero = [6, 5, 3, 8, 9, 1]
 numero.push(1)
 numero.sort()
