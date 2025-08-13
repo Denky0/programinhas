@@ -73,12 +73,3 @@ body{
     font-size: 15px;
     width: 100%;
 }
-
-.cadastro-link{
-    color: black;
-    text-decoration: none;
-}
-
-.cadastro-link:hover{
-    color: #ffffff;
-}
