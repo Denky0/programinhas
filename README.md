@@ -1,2 +1,2 @@
 # programinhas
-Só alguns códigos para treinar
+Pasta utilizada para aprender sobre programação e colocar códigos em prática
