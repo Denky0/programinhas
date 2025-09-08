@@ -3,10 +3,14 @@
     "explorer.confirmDelete": false,
     "security.workspace.trust.untrustedFiles": "open",
     "redhat.telemetry.enabled": true,
-    "jdk.jdkhome": "c:\\Users\\Antonio\\Downloads\\OpenJDK-24",
+    "jdk.jdkhome": "C:\\Program Files\\Java\\jdk-24",
     "workbench.iconTheme": "vscode-icons",
-    "java.project.sourcePaths": ["ITA"],
-    "editor.fontSize": 16,
+    "java.project.sourcePaths": ["estudos-eclipse"],
+    "editor.fontSize": 17,
     "editor.tabSize": 4,
-    "window.zoomLevel":0
+    "window.zoomLevel": -0.40,
+    "java.debug.settings.onBuildFailureProceed": true,
+    "workbench.tree.indent": 12,
+    "recommendations": ["tonybaloney.vscode-pets"]
 }
+

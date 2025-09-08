@@ -1,6 +1,10 @@
 var agora = new Date()
 var dia_da_semana = agora.getDay()
 
+<<<<<<< HEAD
+=======
+// Utilizando o método Switch-Case
+>>>>>>> 16c707ea5d7cb4d8d0b5d683600e67935a24f5c5
 switch(dia_da_semana) {
     case 0:
         console.log('Domingo')
