@@ -4,7 +4,7 @@
     "security.workspace.trust.untrustedFiles": "open",
     "redhat.telemetry.enabled": true,
     "jdk.jdkhome": "C:\\Program Files\\Java\\jdk-24",
-    "workbench.iconTheme": "vscode-icons",
+    "workbench.iconTheme": "symbols",
     "java.project.sourcePaths": ["estudos-eclipse"],
     "editor.fontSize": 17,
     "editor.tabSize": 4,
