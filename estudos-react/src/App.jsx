@@ -52,9 +52,9 @@ function App() {
   }
 
   return (
-    <div className="w-screen h-screen bg-slate-500 flex justify-center p-6">
+    <div className="w-screen h-screen bg-sky-300 flex justify-center p-6">
       <div className="w-[500px] space-y-4">
-        <Title>Gerenciador de Tarefas</Title>
+        <Title>Gerenciador de Atividades</Title>
         <AddTask onAddTaskSubmit={onAddTaskSubmit} />
         <Tasks
           tasks={tasks}

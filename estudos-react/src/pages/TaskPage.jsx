@@ -8,7 +8,7 @@ function TaskPage() {
   const title = searchParams.get("title");
   const description = searchParams.get("description");
   return (
-    <div className="h-screen w-screen bg-slate-500 p-6">
+    <div className="h-screen w-screen bg-sky-300 p-6">
       <div className="w-[500px] mx-auto space-y-4">
         <div className="flex justify-center relative mb-6">
           <button
@@ -17,10 +17,10 @@ function TaskPage() {
           >
             <ChevronLeftIcon />
           </button>
-          <Title>Detalhes da Tarefa</Title>
+          <Title>Detalhes da Atividade</Title>
         </div>
 
-        <div className="bg-slate-200 p-4 rounded-md">
+        <div className="bg-slate-100 p-4 rounded-md">
           <h2 className="text-xl font-bold text-slate-600">{title}</h2>
           <p className="text-slate-600">{description}</p>
         </div>
